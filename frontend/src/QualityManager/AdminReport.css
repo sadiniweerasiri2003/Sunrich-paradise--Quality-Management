@@ -1,0 +1,141 @@
+/* AdminReport.css */
+
+.table-container {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  .table-container th,
+  .table-container td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+  }
+  
+  .table-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-container tr:hover {
+    background-color: #ddd;
+  }
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    color: #333;
+  }
+  
+  .filters-container {
+    margin-bottom: 10px;
+    margin-right: 400px;
+  }
+  
+  .filters {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .filter-heading {
+    margin-bottom: 6px;
+    color: #555;
+  }
+  
+  .date-inputs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .date-inputs label {
+    margin-right: 10px;
+  }
+  
+  .filter-button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filter-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .table-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .feedback-table th, .feedback-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .feedback-table th {
+    text-align: left;
+  }
+  
+  .print-button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .print-button:hover {
+    background-color: #218838;
+  }
+  .total-feedbacks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(165, 21, 21); /* Red border */
+    margin-top: 20px;
+     margin-right: 200px;
+  }
+  
+  .total-feedbacks {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Text color */
+  }
+  
+  .total-feedbacks-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #959191; /* Text color */
+  }
+  
