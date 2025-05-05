@@ -19,6 +19,10 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<QmDashboard/>} />
+          <Route path="/add" element={<AddFeedback/>} />
+          <Route path="/Show" element={<ProductDetails/>} />
+
+
           <Route path="/quality-manager/inquiries" element={<QualityManagerTable />} />
           <Route path="/quality-manager/reports" element={<AdminReport />} />
           <Route path="/quality-manager/inquiry-reports" element={<AdminInquiryReport />} />
